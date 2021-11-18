@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-MobileSanteApp-BAC936C1-73B5-4ED1-9CFB-6B1D6E087C20</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.18" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="Stripe.net" Version="34.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MobileSanteApp.DataAccess\MobileSanteApp.DataAccess.csproj" />
+    <ProjectReference Include="..\MobileSanteApp.Models\MobileSanteApp.Models.csproj" />
+  </ItemGroup>
+
+</Project>
